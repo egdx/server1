@@ -19,7 +19,7 @@ import (
 // server1 -dir=../
 // server1 -listen=3000
 
-var _appVersion = "v1.0.1"
+var _appVersion = "v1.0.2"
 
 var (
 	listen = flag.String("listen", "8080", "listen address")
