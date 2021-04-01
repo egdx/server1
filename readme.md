@@ -6,12 +6,16 @@ $ go get github.com/egdx/server1
 $ server1
 ```
 ```bash
-server1 v1.0.2
+server1 v1.0.3
 
   Simple HTTP server for quick testing
 
-  http://localhost:8080
+  optional flags: -dir -port
 
-2019/09/17 18:30:09 listening on ":8080"
-2019/09/17 18:30:09 dir on "."
+  example: server1 -dir=../dir1/webapp -port=8042
+
+  http://localhost:8042
+
+2021/04/01 10:44:40 listening on ":8042"
+2021/04/01 10:44:40 dir on "../dir1/webapp"
 ```
